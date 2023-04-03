@@ -38,6 +38,23 @@ class Main
 
         // Si au moins 1 paramètre existe
         if ($params[0] != "") {
+            // Sauvegarde du 1er paramètre dans $controller en mettant sa 1ère lettre en majuscule, en ajoutant le namespage des contrôleurs et en ajoutant "Controller" à la fin
+            $controller = '\\App\\Controllers\\'.ucfirst(array_shift($params).'Controller');
+
+            // Sauvegarde du 2ème paramètre dans $action si il existe, sinon index
+            $action = isset($params[0]) ? array_shift($params) : 'index';
+
+            // Instancie le contôleur
+            $controller = new $controller();
+
+            if(method_exists($controller, $action)) {
+                // Si il reste des paramètres, il faut appeler la méthode en envoyant les paramètres sinon il faut l'appeler "à vide"
+                (isset($params[0])) ? call_user_func_array([$controller, $action], $params) : $controller->$action(); 
+            } else {
+                // On envoie le code réponse 404
+                http_response_code(404);
+                echo "La page recherchée n'existe pas";
+            }
         } else {
             // Ici aucun paramètre n'est défini
             // Instancie le contrôleur par défaut (page d'accueil)
