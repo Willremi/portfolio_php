@@ -48,6 +48,17 @@ h2 {
     border-radius: 25%;
 }
 
+/* Competences */
+
+#competences {
+    position: relative;
+    top: 15% !important;
+}
+
+#tabs {
+    color: black !important;
+}
+
 
 footer {
     position: fixed;

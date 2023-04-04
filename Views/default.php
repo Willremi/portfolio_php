@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $pageTitle ?? "Rémi W - Portfolio" ?></title>
+    <link rel="icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
     <!-- <link rel="stylesheet" href="/css/cover.css"> -->
     <link rel="stylesheet" href="/css/styles.css">
@@ -33,15 +34,15 @@
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Formations</a>
+                            <a class="nav-link" href="/">Formations</a>
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Expériences</a>
+                            <a class="nav-link" href="/">Expériences</a>
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="/">Contact</a>
                         </li>
                     </ul>
                 </div>
