@@ -55,13 +55,17 @@ h2 {
     top: 15% !important;
 }
 
-#tabs {
-    color: black !important;
+#nav-tab button {
+    color: rgba(21, 102, 224)!important;
 }
 
+#about {
+    background-color: rgba(21, 102, 224, 0.8);
+}
 
 footer {
-    position: fixed;
+    display: none;
+    position: relative;
     bottom: 0 !important;
     width: 100%;
     color: aliceblue;
