@@ -1,118 +1,108 @@
 body {
-    background-image: url('../img/univers.jpg');
+  background-image: url("../img/univers.jpg");
 }
 
 header, footer {
-    background-color: rgba(21, 102, 224, 0.699);
-    z-index: 45;
-}
-
-header {
-    width: 100%;
+  background-color: rgba(21, 102, 224, 0.699);
+  z-index: 45;
+  width: 100%;
 }
 
 #rw {
-    z-index: 46;
-    height: 50%;
+  z-index: 46;
+  height: 50%;
 }
 
-
 .nav-link {
-    color: aliceblue !important;
+  color: aliceblue !important;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='aliceblue' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='aliceblue' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 #intro {
-    position: relative;
-    top: 15%;
-    max-width: 70%;
-    left: 15%;
-    /* color: #000; */
-    background-color: rgba(219, 223, 235, 0.5);
+  position: relative;
+  top: 15%;
+  max-width: 70%;
+  left: 15%;
+  /* color: #000; */
+  background-color: rgba(240, 248, 255, 0.5);
 }
 
 h1 {
-    color: red;
-    font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 
 h2 {
-    color: green;
+  color: rgb(7, 124, 42);
 }
 
 #remi {
-    width: 150px;
-    border-radius: 25%;
+  width: 150px;
+  border-radius: 25%;
 }
 
 /* Competences */
-
 #competences {
-    position: relative;
-    top: 15% !important;
+  position: relative;
+  top: 15% !important;
 }
 
 #nav-tab button {
-    color: rgba(21, 102, 224)!important;
+  color: rgb(21, 102, 224) !important;
 }
 
 #presentation {
-    background-color: rgba(24, 153, 63, 0.8);
+  background-color: rgba(24, 153, 63, 0.8);
 }
-
 #presentation a {
-    background-color: rgb(190, 40, 157);
-    color: aliceblue;
+  background-color: rgb(190, 40, 157);
 }
-
 #presentation button {
-    background-color: red;
-    color: aliceblue;
+  background-color: red;
+}
+#presentation a, #presentation button {
+  color: aliceblue;
 }
 
 footer {
-    display: none;
-    position: relative;
-    bottom: 0 !important;
-    width: 100%;
-    color: aliceblue;
+  display: none;
+  position: relative;
+  bottom: 0 !important;
+  color: aliceblue;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .logo {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 #mail {
-    width: 80px;
-    margin:-8px;
+  width: 80px;
+  margin: -8px;
 }
-
 
 @media all and (min-width: 1024px) {
-    header {
-        max-width: 50%;
-        left: 25%;
-        top: 4px;
-    }
-
-    #intro {
-        left: 0;
-        max-width: 100%;
-        margin: 0 20%;
-        top: 25%
-    }
-
-    footer {
-        max-width: 50%;
-        width: 25%;
-        left: 40%;
-        background-color: initial;
-    }
-}
+  header {
+    max-width: 50%;
+    left: 25%;
+    top: 4px;
+  }
+  #intro {
+    left: 0;
+    max-width: 100%;
+    margin: 0 20%;
+    top: 25%;
+  }
+  footer {
+    max-width: 50%;
+    width: 25%;
+    left: 40%;
+    background-color: initial;
+  }
+}/*# sourceMappingURL=styles.css.map */
