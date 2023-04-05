@@ -1,5 +1,6 @@
 // Variables
 $headerFooter: rgba(21, 102, 224, 0.699);
+$h2Color: rgb(253, 149, 13);
 $blue: rgba(21, 102, 224);
 $green: rgb(7, 124, 42);
 $red: red;
@@ -56,29 +57,6 @@ h2 {
     border-radius: 25%;
 }
 
-/* Competences */
-
-#competences {
-    position: relative;
-    top: 15% !important;
-}
-
-#nav-tab button {
-    color: $blue!important;
-}
-
-#presentation {
-    background-color: $presentation;
-    a {
-        background-color: $contact; 
-    }
-    button {
-        background-color: $red;
-    }
-    a, button {
-        color: $white;
-    }
-}
 
 footer {
     display: none;
@@ -98,6 +76,47 @@ a {
 #mail {
     width: 80px;
     margin:-8px;
+}
+
+/* Competences */
+
+#competences {
+    position: relative;
+    top: 15% !important;
+}
+
+#nav-tab button {
+    color: $blue!important;
+}
+
+#presentation {
+    background-color: $presentation;
+    height: 5%;
+    a {
+        background-color: $contact; 
+    }
+    button {
+        background-color: $red;
+    }
+    h2 {
+        color: $h2Color;
+    }
+    a, button {
+        color: $white;
+    }
+}
+
+#divers {
+    background-color: rgb(155, 154, 154);
+    margin-top: 1rem;
+    h2 {
+        color: $h2Color;
+    }
+}
+
+#liste {
+    text-align: left !important;
+    list-style-type: circle;
 }
 
 
@@ -120,5 +139,15 @@ a {
         width: 25%;
         left: 40%;
         background-color: initial;
+    }
+
+    #presentation {
+        margin-left: 2rem;
+    }
+
+    #divers {
+        margin-top: 0;
+        margin-left: 3rem;
+        width: 35% !important;
     }
 }
