@@ -59,8 +59,18 @@ h2 {
     color: rgba(21, 102, 224)!important;
 }
 
-#about {
-    background-color: rgba(21, 102, 224, 0.8);
+#presentation {
+    background-color: rgba(24, 153, 63, 0.8);
+}
+
+#presentation a {
+    background-color: rgb(190, 40, 157);
+    color: aliceblue;
+}
+
+#presentation button {
+    background-color: red;
+    color: aliceblue;
 }
 
 footer {
