@@ -13,7 +13,7 @@
 </head>
 
 <body class="h-100 text-white">
-    <header class="position-absolute rounded">
+    <header class="position-absolute">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="text-white h-50" href="/">

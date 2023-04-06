@@ -1,5 +1,7 @@
 body {
   background-image: url("../img/univers.jpg");
+  background-repeat: repeat-y;
+  background-size: auto 200%;
 }
 
 header, footer {
@@ -46,7 +48,7 @@ h2 {
 
 footer {
   display: none;
-  position: relative;
+  position: fixed;
   bottom: 0 !important;
   color: aliceblue;
 }
@@ -73,30 +75,38 @@ a {
 #nav-tab button {
   color: rgb(21, 102, 224) !important;
 }
+#nav-tab > .nav-link.active {
+  background-color: rgba(240, 248, 255, 0.8);
+}
+
+#ligne {
+  width: 100%;
+  border-top: 1px solid rgb(21, 102, 224);
+}
 
 #presentation {
   background-color: rgba(24, 153, 63, 0.8);
   height: 5%;
 }
-#presentation a {
+#presentation a#contact {
   background-color: rgb(190, 40, 157);
 }
-#presentation button {
-  background-color: red;
+#presentation a#pdf {
+  background-color: rgb(201, 27, 27);
 }
 #presentation h2 {
-  color: rgb(253, 149, 13);
+  color: rgb(201, 27, 27);
 }
 #presentation a, #presentation button {
   color: aliceblue;
 }
 
 #divers {
-  background-color: rgb(155, 154, 154);
+  background-color: rgba(155, 154, 154, 0.8);
   margin-top: 1rem;
 }
 #divers h2 {
-  color: rgb(253, 149, 13);
+  color: rgb(201, 27, 27);
 }
 
 #liste {
@@ -104,11 +114,20 @@ a {
   list-style-type: circle;
 }
 
+#reseau {
+  margin-top: 1rem;
+  background-color: rgba(226, 151, 11, 0.8);
+}
+#reseau h2 {
+  color: rgb(201, 27, 27);
+}
+
 @media all and (min-width: 1024px) {
   header {
     max-width: 50%;
     left: 25%;
     top: 4px;
+    border-radius: 5px;
   }
   #intro {
     left: 0;
@@ -122,12 +141,15 @@ a {
     left: 40%;
     background-color: initial;
   }
-  #presentation {
-    margin-left: 2rem;
-  }
   #divers {
     margin-top: 0;
-    margin-left: 3rem;
+    margin-left: 1rem;
     width: 35% !important;
+  }
+  #liste {
+    padding-top: 5%;
+  }
+  br {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
