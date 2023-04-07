@@ -6,7 +6,7 @@ $red: rgb(201, 27, 27);
 $h2Color: $red;
 $white: aliceblue;
 $contact: rgb(190, 40, 157);
-$presentation: rgba(24, 153, 63, 0.8);
+$social: rgba(24, 153, 63, 0.8);
 
 
 body {
@@ -104,7 +104,7 @@ a {
 }
 
 #presentation {
-    background-color: $presentation;
+    background-color: rgba(226, 151, 11, .8);
     height: 5%;
     a#contact {
         background-color: $contact; 
@@ -135,10 +135,14 @@ a {
 
 #reseau {
     margin-top: 1rem;
-    background-color:rgba(226, 151, 11, .8);
+    background-color: $social;
     h2 {
         color: $h2Color;
     }
+}
+
+#technosDev {
+    background-color: rgba($white, 0.8);
 }
 
 // Ecran ordinateur

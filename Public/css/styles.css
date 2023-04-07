@@ -85,7 +85,7 @@ a {
 }
 
 #presentation {
-  background-color: rgba(24, 153, 63, 0.8);
+  background-color: rgba(226, 151, 11, 0.8);
   height: 5%;
 }
 #presentation a#contact {
@@ -116,10 +116,14 @@ a {
 
 #reseau {
   margin-top: 1rem;
-  background-color: rgba(226, 151, 11, 0.8);
+  background-color: rgba(24, 153, 63, 0.8);
 }
 #reseau h2 {
   color: rgb(201, 27, 27);
+}
+
+#technosDev {
+  background-color: rgba(240, 248, 255, 0.8);
 }
 
 @media all and (min-width: 1024px) {
