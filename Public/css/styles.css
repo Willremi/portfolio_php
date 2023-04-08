@@ -125,6 +125,13 @@ a {
 #technosDev {
   background-color: rgba(240, 248, 255, 0.8);
 }
+#technosDev img {
+  width: 70%;
+  height: auto;
+}
+#technosDev figcaption {
+  color: rgb(7, 124, 42) !important;
+}
 
 @media all and (min-width: 1024px) {
   header {
@@ -152,8 +159,5 @@ a {
   }
   #liste {
     padding-top: 5%;
-  }
-  br {
-    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

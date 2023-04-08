@@ -14,5 +14,5 @@
         <?php require_once 'tabs/projets.php'; ?>
     </div>
 
-    <br><br><br>
+
 </main>

@@ -143,6 +143,13 @@ a {
 
 #technosDev {
     background-color: rgba($white, 0.8);
+    img {
+        width: 70%;
+        height: auto;
+    }
+    figcaption {
+        color: $green !important;
+    }
 }
 
 // Ecran ordinateur
@@ -177,9 +184,5 @@ a {
     #liste {
         padding-top: 5%;
         // padding-left: 2%;
-    }
-
-    br {
-        display: none;
     }
 }

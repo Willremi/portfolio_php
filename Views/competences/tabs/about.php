@@ -1,4 +1,4 @@
-<div class="tab-pane fade show active mx-4" id="about" role="tabpanel" aria-labelledby="about-tab">
+<div class="tab-pane fade show active mx-4 pb-4" id="about" role="tabpanel" aria-labelledby="about-tab">
     <div class="row justify-content-md-center">
         <div class="col-md-12 col-lg-4 rounded" id="presentation">
             <h2 class="pt-1">Présentation</h2>
