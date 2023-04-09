@@ -141,15 +141,18 @@ a {
     }
 }
 
-#technosDev {
-    background-color: rgba($white, 0.8);
+#technosDev, #os {
     img {
-        width: 70%;
+        width: 65%;
         height: auto;
     }
     figcaption {
         color: $green !important;
     }
+}
+
+#technosDev, #os {
+    background-color: rgba($white, 0.8);
 }
 
 // Ecran ordinateur
@@ -184,5 +187,9 @@ a {
     #liste {
         padding-top: 5%;
         // padding-left: 2%;
+    }
+
+    #imgOs img, #imgDev img {
+        width: 35%;
     }
 }

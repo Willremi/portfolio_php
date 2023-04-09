@@ -8,7 +8,6 @@
     <title><?= $pageTitle ?? "Rémi W - Portfolio" ?></title>
     <link rel="icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="/css/cover.css"> -->
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 

@@ -122,15 +122,16 @@ a {
   color: rgb(201, 27, 27);
 }
 
-#technosDev {
-  background-color: rgba(240, 248, 255, 0.8);
-}
-#technosDev img {
-  width: 70%;
+#technosDev img, #os img {
+  width: 65%;
   height: auto;
 }
-#technosDev figcaption {
+#technosDev figcaption, #os figcaption {
   color: rgb(7, 124, 42) !important;
+}
+
+#technosDev, #os {
+  background-color: rgba(240, 248, 255, 0.8);
 }
 
 @media all and (min-width: 1024px) {
@@ -159,5 +160,8 @@ a {
   }
   #liste {
     padding-top: 5%;
+  }
+  #imgOs img, #imgDev img {
+    width: 35%;
   }
 }/*# sourceMappingURL=styles.css.map */
