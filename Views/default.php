@@ -27,19 +27,27 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">Accueil</a>
                         </li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/competences">Compétences</a>
                         </li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/">Formations</a>
                         </li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/">Expériences</a>
                         </li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/">Contact</a>
                         </li>
