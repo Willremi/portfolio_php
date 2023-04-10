@@ -23,140 +23,28 @@
                     </figure>
                 </div>
             </div>
-            <!-- <img src="/img/logos/windows.png" alt="windows">
-            <img src="/img/logos/macos.png" alt="mac">
-            <img src="/img/logos/debian.png" alt="debian"> -->
         </div>
         <div class="col-10 col-md-9 rounded" id="technosDev">
             <h2>Technologies en développement</h2>
             <div id="ligne" class="py-2"></div>
             <div class="row" id="imgDev">
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/html.png" alt="html">
-                            <figcaption>HTML 5</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/css.png" alt="css">
-                            <figcaption>CSS 3</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/javascript.png" alt="javascript">
-                            <figcaption>Javascript</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/bootstrap.png" alt="bootstrap">
-                            <figcaption>Bootstrap</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/jquery.png" alt="jquery">
-                            <figcaption>Jquery</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/react.png" alt="react">
-                            <figcaption>ReactJS</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/tailwind.png" alt="tailwind">
-                            <figcaption>Tailwind</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/php.png" alt="php">
-                            <figcaption>PHP 8</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/node.png" alt="node">
-                            <figcaption>NodeJS</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/mysql.png" alt="mysql">
-                            <figcaption>MySQL</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/mongodb.png" alt="mongodb">
-                            <figcaption>MongoDB</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/symfony.png" alt="symfony">
-                            <figcaption>Symfony 6</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2 offset-md-4">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/sass.png" alt="sass">
-                            <figcaption>Sass</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-4 col-md-2">
-                    <a href="#">
-                        <figure>
-                            <img src="/img/logos/wordpress.png" alt="wordpress">
-                            <figcaption>Wordpress</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <!-- <img src="/img/logos/html.png" alt="html">
-                <img src="/img/logos/css.png" alt="css">
-                <img src="/img/logos/javascript.png" alt="javascript">
-                <img src="/img/logos/bootstrap.png" alt="bootstrap">
-                <img src="/img/logos/jquery.png" alt="jquery">
-                <img src="/img/logos/react.png" alt="react">
-                <img src="/img/logos/tailwind.png" alt="tailwind">
-                <img src="/img/logos/php.png" alt="php">
-                <img src="/img/logos/node.png" alt="node">
-                <img src="/img/logos/mysql.png" alt="mysql">
-                <img src="/img/logos/mongodb.png" alt="mongodb">
-                <img src="/img/logos/symfony.png" alt="symfony">
-                <img src="/img/logos/sass.png" alt="sass">
-                <img src="/img/logos/wordpress.png" alt="wordpress"> -->
+                <?php foreach ($langages as $lang) : ?>
+                    <div class="col-4 col-md-2 <?= ($lang->name === 'Sass' ? 'offset-md-4' : '') ?>">
+                        <?php if ($lang->lien === null) : ?>
+                            <figure>
+                                <img src="/img/logos/<?= $lang->image ?>.png" alt="<?= $lang->image ?>">
+                                <figcaption><?= $lang->name ?></figcaption>
+                            </figure>
+                        <?php else : ?>
+                            <a href="<?= $lang->lien ?>">
+                                <figure>
+                                    <img src="/img/logos/<?= $lang->image ?>.png" alt="<?= $lang->image ?>">
+                                    <figcaption><?= $lang->name ?></figcaption>
+                                </figure>
+                            </a>
+                        <?php endif ?>
+                    </div>
+                <?php endforeach ?>
             </div>
         </div> <!-- fin technosDev -->
     </div> <!-- fin row -->

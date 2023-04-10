@@ -2,10 +2,17 @@
 
 namespace App\Controllers;
 
+use App\Models\LangagesModel;
+
 class CompetencesController extends Controller
 {
     public function index()
     {
-        $this->render('competences/index', [], 'default');
+        // Recherche dans la BDD
+        $langagesModel = new LangagesModel;
+
+        $langages = $langagesModel->findAll();
+
+        $this->render('competences/index', compact('langages'), 'default');
     }
 }

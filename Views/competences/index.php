@@ -1,4 +1,4 @@
-<?php $pageTitle = "Compétences" ?>
+<?php $pageTitle = "Compétences"; ?>
 <main id="competences" class="text-center rounded">
     <!-- <h1 class="mb-3">Compétences</h1> -->
     <nav class="mx-2">

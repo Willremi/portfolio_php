@@ -151,8 +151,26 @@ a {
     }
 }
 
+#projets {
+    img {
+        width: 75%;
+    }
+}
+
 #technosDev, #os {
     background-color: rgba($white, 0.8);
+}
+
+#projets {
+    background-color: rgba(238, 124, 31, 0.8);
+    h4 {
+        text-decoration: underline;
+        color: $green;
+    }
+    p {
+        color: $blue;
+        font-size: 18px !important;
+    }
 }
 
 // Ecran ordinateur
@@ -191,5 +209,11 @@ a {
 
     #imgOs img, #imgDev img {
         width: 35%;
+    }
+
+    #projets {
+        img {
+            width: 100%;
+        }
     }
 }
