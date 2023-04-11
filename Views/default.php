@@ -37,7 +37,7 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Formations</a>
+                            <a class="nav-link" href="/formations">Formations</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
