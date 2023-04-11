@@ -10,9 +10,12 @@ class CompetencesController extends Controller
     {
         // Recherche dans la BDD
         $langagesModel = new LangagesModel;
-
         $langages = $langagesModel->findAll();
 
-        $this->render('competences/index', compact('langages'), 'default');
+        // Recherche dans le fichier json
+        $json = file_get_contents('js/datas/projets.json');
+        $projets = json_decode($json);
+
+        $this->render('competences/index', compact('langages', 'projets'), 'default');
     }
 }

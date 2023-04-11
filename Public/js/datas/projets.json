@@ -7,20 +7,24 @@
         "images": [
             {
                 "id": 1,
+                "name": "Rto",
                 "src": "projets/RTo.png"
             },
             {
                 "id": 2,
+                "name": "Rto1",
                 "src": "projets/RTo1.png"
             }
         ],
         "technos": [
             {
                 "id": 1,
+                "name": "wordpress",
                 "logo": "logos/wordpress.png"
             },
             {
                 "id": 2,
+                "name": "css",
                 "logo": "logos/css.png"
             }
         ]
@@ -33,32 +37,39 @@
         "images": [
             {
                 "id": 1,
+                "name": "retroTv",
                 "src": "projets/RetroTv.png"
             },
             {
                 "id": 2,
+                "name": "retroTv1",
                 "src": "projets/RetroTv1.png"
             }
         ],
         "technos": [
             {
                 "id": 1,
+                "name": "html",
                 "logo": "logos/php.png"
             },
             {
                 "id": 2,
+                "name": "css",
                 "logo": "logos/css.png"
             },
             {
                 "id": 3,
+                "name": "js",
                 "logo": "logos/javascript.png"
             },
             {
                 "id": 4,
+                "name": "mysql",
                 "logo": "logos/mysql.png"
             },
             {
                 "id": 5,
+                "name": "bootstrap",
                 "logo": "logos/bootstrap.png"
             }
         ]
@@ -71,66 +82,79 @@
         "images": [
             {
                 "id": 1,
+                "name": "france",
                 "src": "projets/france.png"
             }, 
             {
                 "id": 2,
+                "name": "france1",
                 "src": "projets/france1.png"
             }
         ],
         "technos": [
             {
                 "id": 1,
+                "name": "html",
                 "logo": "logos/html.png"
             },
             {
                 "id": 2,
+                "name": "css",
                 "logo": "logos/css.png"
             },
             {
                 "id": 3,
+                "name": "js",
                 "logo": "logos/javascript.png"
             },
             {
                 "id": 3,
+                "name": "bootstrap",
                 "logo": "logos/bootstrap.png"
             }
         ]
     },
     {
-        "id": 3, 
+        "id": 4, 
         "title": "Course au jouet",
         "date": "2021 - 2022",
         "description": "Site e-commerce de ventes de jouets",
         "images": [
             {
                 "id": 1,
+                "name": "caj",
                 "src": "projets/caj.png"
             },
             {
                 "id": 2,
+                "name": "caj1",
                 "src": "projets/caj1.png"
             }
         ],
         "technos": [
             {
                 "id": 1,
+                "name": "js",
                 "logo": "logos/javascript.png"
             },
             {
                 "id": 2,
+                "name": "react",
                 "logo": "logos/react.png"
             },
             {
                 "id": 3,
+                "name": "tailwind",
                 "logo": "logos/tailwind.png"
             },
             {
                 "id": 4,
+                "name": "node",
                 "logo": "logos/node.png"
             },
             {
                 "id": 5,
+                "name": "mongodb",
                 "logo": "logos/mongodb.png"
             }
         ]

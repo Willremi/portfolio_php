@@ -17,7 +17,8 @@ body {
     // background-repeat: no-repeat;
 }
 
-header, footer {
+header,
+footer {
     background-color: $headerFooter;
     z-index: 45;
     width: 100%;
@@ -54,7 +55,9 @@ h1 {
 
 h2 {
     color: $green;
+    font-size: 32px;
 }
+
 
 #remi {
     width: 150px;
@@ -79,7 +82,7 @@ a {
 
 #mail {
     width: 80px;
-    margin:-8px;
+    margin: -8px;
 }
 
 /* Competences */
@@ -91,9 +94,10 @@ a {
 
 #nav-tab {
     button {
-        color: $blue!important;
+        color: $blue !important;
     }
-    & > .nav-link.active {
+
+    &>.nav-link.active {
         background-color: rgba($white, 0.8);
     }
 }
@@ -106,16 +110,21 @@ a {
 #presentation {
     background-color: rgba(226, 151, 11, .8);
     height: 5%;
+
     a#contact {
-        background-color: $contact; 
+        background-color: $contact;
     }
+
     a#pdf {
         background-color: $red;
     }
+
     h2 {
         color: $h2Color;
     }
-    a, button {
+
+    a,
+    button {
         color: $white;
     }
 }
@@ -123,6 +132,7 @@ a {
 #divers {
     background-color: rgb(155, 154, 154, 0.8);
     margin-top: 1rem;
+
     h2 {
         color: $h2Color;
     }
@@ -136,16 +146,19 @@ a {
 #reseau {
     margin-top: 1rem;
     background-color: $social;
+
     h2 {
         color: $h2Color;
     }
 }
 
-#technosDev, #os {
+#technosDev,
+#os {
     img {
         width: 65%;
         height: auto;
     }
+
     figcaption {
         color: $green !important;
     }
@@ -157,19 +170,91 @@ a {
     }
 }
 
-#technosDev, #os {
+#technosDev,
+#os {
     background-color: rgba($white, 0.8);
 }
 
 #projets {
     background-color: rgba(238, 124, 31, 0.8);
+
     h3 {
         text-decoration: underline;
         color: $green;
+        font-size: 24px;
     }
+
     p {
         color: $blue;
         font-size: 20px !important;
+    }
+}
+
+// Modal
+.modaloverlay {
+    background: rgba($white, 0.8);
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    //   -webkit-transition: opacity 400ms ease-in;
+    //   -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    z-index: -1;
+    display: none;
+
+    &:target {
+        display: block;
+        opacity: 1;
+        pointer-events: auto;
+        z-index: 99999;
+    }
+
+    .modalPerso {
+        background-color: white;
+        border: 1px solid $blue;
+        border-radius: 5px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        padding: 3em;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: auto;
+
+        p {
+            color: $green !important;
+        }
+
+        @media (min-width: 60em) {
+            height: 75%;
+            margin: 5% auto;
+            max-height: 57em;
+            max-width: 66em;
+            width: 85%;
+        }
+
+        >iframe,
+        >div {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .close {
+        background-color: $blue;
+        color: white;
+        font-size: 24px;
+        padding: 8px 12px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        text-decoration: none;
+        top: 0;
+        z-index: 1;
     }
 }
 
@@ -207,7 +292,8 @@ a {
         // padding-left: 2%;
     }
 
-    #imgOs img, #imgDev img {
+    #imgOs img,
+    #imgDev img {
         width: 35%;
     }
 

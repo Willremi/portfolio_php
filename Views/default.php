@@ -61,6 +61,7 @@
         <p class="my-1">© <?= date('Y') ?> - Rémi W.</p>
     </footer>
     <script src="/bootstrap/js/bootstrap.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
