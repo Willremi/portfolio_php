@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: url("../img/univers.jpg");
   background-repeat: repeat-y;
@@ -68,12 +69,13 @@ a {
   margin: -8px;
 }
 
-/* Competences */
-#competences {
+/* Pages compétences, formations, experiences */
+#competences, #formations {
   position: relative;
   top: 15% !important;
 }
 
+/* Competences */
 #nav-tab button {
   color: rgb(21, 102, 224) !important;
 }
@@ -216,6 +218,10 @@ a {
   text-decoration: none;
   top: 0;
   z-index: 1;
+}
+
+#listForm {
+  background-color: rgba(240, 248, 255, 0.8);
 }
 
 @media all and (min-width: 1024px) {

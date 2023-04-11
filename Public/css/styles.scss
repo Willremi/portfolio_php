@@ -85,13 +85,13 @@ a {
     margin: -8px;
 }
 
-/* Competences */
-
-#competences {
+/* Pages compétences, formations, experiences */
+#competences, #formations {
     position: relative;
     top: 15% !important;
 }
 
+/* Competences */
 #nav-tab {
     button {
         color: $blue !important;
@@ -256,6 +256,11 @@ a {
         top: 0;
         z-index: 1;
     }
+}
+
+// pages Formations
+#listForm {
+    background-color: rgba($white, 0.8);
 }
 
 // Ecran ordinateur
