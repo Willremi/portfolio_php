@@ -43,7 +43,7 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Expériences</a>
+                            <a class="nav-link" href="/experiences">Expériences</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">

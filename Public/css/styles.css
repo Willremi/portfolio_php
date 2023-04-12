@@ -70,7 +70,7 @@ a {
 }
 
 /* Pages compétences, formations, experiences */
-#competences, #formations {
+#competences, #formations, #experiences {
   position: relative;
   top: 15% !important;
 }
@@ -220,7 +220,7 @@ a {
   z-index: 1;
 }
 
-#listForm {
+#listForm, #listExp {
   background-color: rgba(240, 248, 255, 0.8);
 }
 
