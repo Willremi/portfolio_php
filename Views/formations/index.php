@@ -18,8 +18,24 @@
                             </h3>
                             <div id="flush-collapse<?= $formation->id ?>" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <p class="text-dark"><?= $formation->date ?></p>
-                                <p class="text-dark"><?= $formation->lieu ?></p>
+                                <div class="row pb-2">
+                                    <div class="col-md-6">
+                                        <span><?= $formation->lieu ?></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                    <span><?= $formation->date ?></span>
+                                    </div>
+                                </div>
+                                <?php if($formation->actions): ?>
+                                    <div id="ligne" class="py-2"></div>
+                                    <div class="d-flex justify-content-md-center">
+                                    <ul>
+                                        <?php foreach($formation->actions as $liste): ?>
+                                            <li><?= $liste->description ?></li>
+                                        <?php endforeach ?>
+                                    </ul>
+                                    </div>
+                                <?php endif ?>
                             </div>
                         </div>
                         </div>

@@ -224,6 +224,29 @@ a {
   background-color: rgba(240, 248, 255, 0.8);
 }
 
+.accordion-button {
+  background-color: rgb(247, 162, 4) !important;
+  color: rgb(21, 102, 224);
+  border-bottom: 1px solid aliceblue;
+}
+.accordion-button:not(.collapsed) {
+  color: red !important;
+  background-color: rgb(218, 218, 40) !important;
+}
+
+.accordion-item {
+  background-color: rgb(190, 220, 247);
+}
+.accordion-item span {
+  color: rgb(190, 40, 157);
+  font-weight: 600;
+}
+.accordion-item ul {
+  text-align: left;
+  color: rgb(7, 124, 42);
+  list-style-type: circle;
+}
+
 @media all and (min-width: 1024px) {
   header {
     max-width: 50%;

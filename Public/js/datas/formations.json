@@ -1,108 +1,111 @@
 [
-    {
-        "id": 1,
-        "title": "Bac Sciences de Technologiess et de Laboratoire",
-        "date": "09/2001 au 07/2002",
-        "lieu": "Lycée Henri Darras - Liévin"
-    },
-    {
-        "id": 2,
-        "title": "1ère année BTS Physiques Industrie et Laboratoire",
-        "date": "09/2002 au 07/2003",
-        "lieu": "Lycée Gustave Eiffel - Armentières"
-    },
-    {
-        "id": 3,
-        "title": "Niveau BTS Génie Optique",
-        "date": "09/2003 au 07/2005",
-        "lieu": "Lycée Gustave Eiffel - Armentières"
-    },
-    {
-        "id": 4,
-        "title": "Formation Technicien en contrôle non destructif",
-        "date": "4/02/2008 au 29/01/2009",
-        "lieu": "AFPA - Liévin",
-        "actions": [
-            {
-                "id": 1,
-                "description": "Contrôles surfaciques : ressuage, magnétoscopie"
-            },
-            {
-                "id": 2,
-                "description": "Contrôles volumiques : radiographies, ultrasons"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "title": "Attestation de compétence informatique TIMP@SS",
-        "date": "Juin à juillet 2013",
-        "lieu": "Instep - Liévin",
-        "actions": [
-            {
-                "id": 1,
-                "description": "Initiation aux outils bureautiques (traitement de texte, tableur, ...)"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Formation Développeur Web",
-        "date": "06/2017 au 12/2017",
-        "lieu": "Popschool - Lens",
-        "actions": [
-            {
-                "id": 1,
-                "description": "Technologies Web : HTML5/CSS3, Javascript, Bootstrap"
-            },
-            {
-                "id": 2,
-                "description": "Langages de programmation : PHP 7, MySQL"
-            },
-            {
-                "id": 3,
-                "description": "Bases de données : MySQL"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "title": "Formation Développeur Web et Web mobile",
-        "date": "20/12/2019 au 6/10/2020",
-        "lieu": "AFPA - Liévin",
-        "actions": [
-            {
-                "id": 1,
-                "description": "Technologies Web : HTML5/CSS3, Javascript, JQuery, AJAX, Bootstrap, SASS"
-            },
-            {
-                "id": 2,
-                "description": "Langages de programmation : PHP 7, MySQL"
-            },
-            {
-                "id": 3,
-                "description": "Frameworks : Symfony"
-            },
-            {
-                "id": 4,
-                "description": "Bases de données : MySQL"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "title": "Incubateur Numérique",
-        "date": "13/10/2021 au 10/02/2022",
-        "lieu": "1 FORMATION = 1 JOB - Lille",
-        "actions": [
-            {
-                "id": 1,
-                "description": "Montée en compétence en utilisant React JS et NodeJs"
-            },
-            {
-                "id": 2,
-                "description": "Réalisation d'un site web e-commerce"
-            }
-        ]
-    }
+	{
+		"id": 8,
+		"title": "Incubateur Numérique",
+		"date": "13/10/2021 au 10/02/2022",
+		"lieu": "1 FORMATION = 1 JOB - Lille",
+		"actions": [
+			{
+				"id": 1,
+				"description": "Montée en compétence en utilisant React JS et NodeJs"
+			},
+			{
+				"id": 2,
+				"description": "Réalisation d'un site web e-commerce"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"title": "Formation Développeur Web et Web mobile",
+		"date": "20/12/2019 au 6/10/2020",
+		"lieu": "AFPA - Liévin",
+		"actions": [
+			{
+				"id": 1,
+				"description": "Technologies Web : HTML5/CSS3, Javascript, JQuery, AJAX, Bootstrap, SASS"
+			},
+			{
+				"id": 2,
+				"description": "Langages de programmation : PHP 7, MySQL"
+			},
+			{
+				"id": 3,
+				"description": "Frameworks : Symfony"
+			},
+			{
+				"id": 4,
+				"description": "Bases de données : MySQL"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Formation Développeur Web",
+		"date": "06/2017 au 12/2017",
+		"lieu": "Popschool - Lens",
+		"actions": [
+			{
+				"id": 1,
+				"description": "Technologies Web : HTML5/CSS3, Javascript, Bootstrap"
+			},
+			{
+				"id": 2,
+				"description": "Langages de programmation : PHP 7, MySQL"
+			},
+			{
+				"id": 3,
+				"description": "Bases de données : MySQL"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Attestation de compétence informatique TIMP@SS",
+		"date": "Juin à juillet 2013",
+		"lieu": "Instep - Liévin",
+		"actions": [
+			{
+				"id": 1,
+				"description": "Initiation aux outils bureautiques (traitement de texte, tableur, ...)"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Formation Technicien en contrôle non destructif",
+		"date": "4/02/2008 au 29/01/2009",
+		"lieu": "AFPA - Liévin",
+		"actions": [
+			{
+				"id": 1,
+				"description": "Contrôles surfaciques : ressuage, magnétoscopie"
+			},
+			{
+				"id": 2,
+				"description": "Contrôles volumiques : radiographies, ultrasons"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Niveau BTS Génie Optique",
+		"date": "09/2003 au 07/2005",
+		"lieu": "Lycée Gustave Eiffel - Armentières",
+		"actions": []
+	},
+	{
+		"id": 2,
+		"title": "1ère année BTS Physiques Industrie et Laboratoire",
+		"date": "09/2002 au 07/2003",
+		"lieu": "Lycée Gustave Eiffel - Armentières",
+		"actions": []
+	},
+	{
+		"id": 1,
+		"title": "Bac Sciences de Technologiess et de Laboratoire",
+		"date": "09/2001 au 07/2002",
+		"lieu": "Lycée Henri Darras - Liévin",
+		"actions": []
+	}
 ]
