@@ -258,7 +258,7 @@ a {
     }
 }
 
-// pages Formations
+// page Formations
 #listForm, #listExp {
     background-color: rgba($white, 0.8);
 }
@@ -285,6 +285,16 @@ a {
         list-style-type: circle;
     }
 }
+
+// Expériences
+
+#listExp 
+    .card-header {
+        padding: 0.3rem 1rem;
+    }
+    .card-body {
+    padding: 0.5rem 0.5rem !important;
+  }
 
 // Ecran ordinateur
 @media all and (min-width: 1024px) {
