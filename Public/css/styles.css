@@ -70,7 +70,9 @@ a {
 }
 
 /* Pages compétences, formations, experiences */
-#competences, #formations, #experiences {
+#competences,
+#formations,
+#experiences {
   position: relative;
   top: 15% !important;
 }
@@ -220,7 +222,8 @@ a {
   z-index: 1;
 }
 
-#listForm, #listExp {
+#listForm,
+#listExp {
   background-color: rgba(240, 248, 255, 0.8);
 }
 
@@ -248,11 +251,33 @@ a {
 }
 
 #listExp .card-header {
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 1rem 0.1rem;
+  color: rgb(201, 27, 27) !important;
+  background-color: rgb(255, 219, 153) !important;
+}
+#listExp .card-header h5 {
+  font-size: 16px;
+}
+
+.card {
+  border: 1px solid rgb(201, 27, 27) !important;
 }
 
 .card-body {
   padding: 0.5rem 0.5rem !important;
+  color: rgb(21, 102, 224);
+  background-color: rgb(224, 224, 224);
+}
+.card-body ul {
+  color: rgb(190, 40, 157);
+}
+
+#lieu {
+  color: rgb(7, 124, 42);
+}
+
+#date {
+  color: rgb(49, 45, 45);
 }
 
 @media all and (min-width: 1024px) {
@@ -288,5 +313,8 @@ a {
   }
   #projets img {
     width: 100%;
+  }
+  #listExp .card-header h5 {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=styles.css.map */

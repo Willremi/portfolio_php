@@ -86,7 +86,9 @@ a {
 }
 
 /* Pages compétences, formations, experiences */
-#competences, #formations, #experiences {
+#competences,
+#formations,
+#experiences {
     position: relative;
     top: 15% !important;
 }
@@ -259,14 +261,16 @@ a {
 }
 
 // page Formations
-#listForm, #listExp {
+#listForm,
+#listExp {
     background-color: rgba($white, 0.8);
 }
 
 .accordion-button {
     background-color: rgb(247, 162, 4) !important;
-    color:$blue;
+    color: $blue;
     border-bottom: 1px solid $white;
+
     &:not(.collapsed) {
         color: red !important;
         background-color: rgb(218, 218, 40) !important;
@@ -275,10 +279,12 @@ a {
 
 .accordion-item {
     background-color: rgb(190, 220, 247);
+
     span {
         color: $contact;
         font-weight: 600;
     }
+
     ul {
         text-align: left;
         color: $green;
@@ -288,13 +294,35 @@ a {
 
 // Expériences
 
-#listExp 
-    .card-header {
-        padding: 0.3rem 1rem;
+#listExp .card-header {
+    padding: 0.3rem 1rem 0.1rem;
+    color: $red !important;
+    background-color: rgb(255,219,153) !important;
+    h5 {
+        font-size: 16px;
     }
-    .card-body {
+}
+
+.card {
+    border: 1px solid $red !important;
+}
+
+.card-body {
     padding: 0.5rem 0.5rem !important;
-  }
+    color: $blue;
+    background-color: rgb(224,224,224);
+    ul {
+        color:rgb(190, 40, 157);
+    }
+}
+
+#lieu {
+    color: $green;
+}
+
+#date {
+    color: rgb(49, 45, 45);
+}
 
 // Ecran ordinateur
 @media all and (min-width: 1024px) {
@@ -338,6 +366,12 @@ a {
     #projets {
         img {
             width: 100%;
+        }
+    }
+
+    #listExp .card-header {
+        h5 {
+            font-size: 18px;
         }
     }
 }
