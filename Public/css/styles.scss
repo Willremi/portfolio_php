@@ -293,26 +293,29 @@ a {
 }
 
 // Expériences
-
-#listExp .card-header {
-    padding: 0.3rem 1rem 0.1rem;
-    color: $red !important;
-    background-color: rgb(255,219,153) !important;
-    h5 {
-        font-size: 16px;
+#listExp {
+    .card {
+        border: 1px solid $red !important;
     }
-}
 
-.card {
-    border: 1px solid $red !important;
-}
+    .card-header {
+        padding: 0.3rem 1rem 0.1rem;
+        color: $red !important;
+        background-color: rgb(255, 219, 153) !important;
 
-.card-body {
-    padding: 0.5rem 0.5rem !important;
-    color: $blue;
-    background-color: rgb(224,224,224);
-    ul {
-        color:rgb(190, 40, 157);
+        h5 {
+            font-size: 16px;
+        }
+    }
+
+    .card-body {
+        padding: 0.5rem 0.5rem !important;
+        color: $blue;
+        background-color: rgb(224, 224, 224);
+
+        ul {
+            color: rgb(190, 40, 157);
+        }
     }
 }
 

@@ -7,7 +7,7 @@
                 <div id="ligne" class="py-2"></div>
                 <div class="row justify-content-center mx-auto">
                     <?php foreach ($experiences as $exp) : ?>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4" id="<?= $exp->tag ?>">
                             <div class="card mb-2">
                                 <div class="card-header">
                                     <h5><?= $exp->title ?></h5>
@@ -18,7 +18,7 @@
                                     <details>
                                         <summary>Activités</summary>
                                         <ul id="liste">
-                                            <?php foreach($exp->missions as $mission): ?>
+                                            <?php foreach ($exp->missions as $mission) : ?>
                                                 <li><?= $mission->title ?></li>
                                             <?php endforeach ?>
                                         </ul>

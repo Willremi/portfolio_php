@@ -250,6 +250,9 @@ a {
   list-style-type: circle;
 }
 
+#listExp .card {
+  border: 1px solid rgb(201, 27, 27) !important;
+}
 #listExp .card-header {
   padding: 0.3rem 1rem 0.1rem;
   color: rgb(201, 27, 27) !important;
@@ -258,17 +261,12 @@ a {
 #listExp .card-header h5 {
   font-size: 16px;
 }
-
-.card {
-  border: 1px solid rgb(201, 27, 27) !important;
-}
-
-.card-body {
+#listExp .card-body {
   padding: 0.5rem 0.5rem !important;
   color: rgb(21, 102, 224);
   background-color: rgb(224, 224, 224);
 }
-.card-body ul {
+#listExp .card-body ul {
   color: rgb(190, 40, 157);
 }
 
